@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 概要
 
-Things you may want to cover:
+vue練習用アプリ
 
-* Ruby version
+## models
 
-* System dependencies
+### Task
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+|Column|Type|Options|
+|---|---|---|
+|id|INT|unsigned NOT NULL AUTO_INCREMENT|
+|name|VARCHAR(255)|NOT NULL|
+|is_done|TINYINT(1)|NOT NULL DEFAULT '0'|
+|created_at|datetime|NOT NULL|
+|updated_at|datetime|NOT NULL|
